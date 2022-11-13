@@ -1,6 +1,8 @@
 # Data Loader
 This is a lightweight, simple and flexible library for exporting data, and now support csv, tsv, parquet etc....
 
+[![Latest Stable Version](http://poser.pugx.org/iamgold/dataloader-php/v)](https://packagist.org/packages/iamgold/dataloader-php) [![Total Downloads](http://poser.pugx.org/iamgold/dataloader-php/downloads)](https://packagist.org/packages/iamgold/dataloader-php) [![Latest Unstable Version](http://poser.pugx.org/iamgold/dataloader-php/v/unstable)](https://packagist.org/packages/iamgold/dataloader-php) [![License](http://poser.pugx.org/iamgold/dataloader-php/license)](https://packagist.org/packages/iamgold/dataloader-php) [![PHP Version Require](http://poser.pugx.org/iamgold/dataloader-php/require/php)](https://packagist.org/packages/iamgold/dataloader-php)
+
 ## Getting Start
 ### Features
 - Support csv
