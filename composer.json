@@ -2,7 +2,8 @@
     "name": "iamgold/dataloader-php",
     "description": "This library provides a simple and lightweight component to help loading data into csv, tsv or parquet etc....",
     "type": "library",
-    "license": "Apache",
+    "license": "Apache-2.0",
+    "keywords": ["ETL", "Loader", "Export", "File Process", "Data Process", "Cyntelli", "Atelli", "AdGeek"],
     "autoload": {
         "psr-4": {
             "Cyntelli\\DataLoader\\": "src/"
