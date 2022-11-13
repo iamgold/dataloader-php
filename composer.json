@@ -1,0 +1,23 @@
+{
+    "name": "cyntelli/data-loader",
+    "description": "This library provides a simple and lightweight component to help loading data into csv, tsv or parquet etc....",
+    "type": "library",
+    "license": "Apache",
+    "autoload": {
+        "psr-4": {
+            "Cyntelli\\DataLoader\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eric Huang <eric.huang@atelli.ai>"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "codename/parquet": "^0.6.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.9"
+    }
+}

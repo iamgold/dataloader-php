@@ -1,0 +1,286 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "007b85a5ac3fe3571c09caa5ecd32fdf",
+    "packages": [
+        {
+            "name": "codename/parquet",
+            "version": "v0.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codename-hub/php-parquet.git",
+                "reference": "6407bb1749786c59bcdb979e1d9b71ce6c0f8798"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codename-hub/php-parquet/zipball/6407bb1749786c59bcdb979e1d9b71ce6c0f8798",
+                "reference": "6407bb1749786c59bcdb979e1d9b71ce6c0f8798",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "ext-gmp": "*",
+                "ext-zlib": "*",
+                "nelexa/buffer": "^1.3",
+                "packaged/thrift": "^0.13.0",
+                "pear/math_biginteger": "^1.0",
+                "php": ">=7.3 <=8.1.99"
+            },
+            "require-dev": {
+                "phpunit/php-code-coverage": "^9.2",
+                "phpunit/phpunit": "^9.0"
+            },
+            "suggest": {
+                "ext-snappy": "Install/compile snappy extension to get support for snappy compression reading/writing"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "codename\\parquet\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kevin Dargel",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Thrift-based PHP implementation for using the Apache Parquet format",
+            "support": {
+                "issues": "https://github.com/codename-hub/php-parquet/issues",
+                "source": "https://github.com/codename-hub/php-parquet/tree/v0.6.2"
+            },
+            "time": "2022-04-10T09:58:33+00:00"
+        },
+        {
+            "name": "nelexa/buffer",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ne-Lexa/php-byte-buffer.git",
+                "reference": "c97bc126d5fbe0c94152fce406a054f681149fac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Ne-Lexa/php-byte-buffer/zipball/c97bc126d5fbe0c94152fce406a054f681149fac",
+                "reference": "c97bc126d5fbe0c94152fce406a054f681149fac",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nelexa\\Buffer\\": "src/Nelexa/Buffer"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ne-Lexa",
+                    "email": "alexey@nelexa.ru"
+                }
+            ],
+            "description": "Reading And Writing Binary Data (incl. primitive types, ex. byte, ubyte, short, ushort, int, uint, long, float, double). The classes also help with porting the I/O operations of the JAVA code.",
+            "keywords": [
+                "Double",
+                "binary",
+                "byte",
+                "float",
+                "int",
+                "io",
+                "java",
+                "long",
+                "pack",
+                "primitive",
+                "short",
+                "ubyte",
+                "uint",
+                "unpack",
+                "ushort"
+            ],
+            "support": {
+                "issues": "https://github.com/Ne-Lexa/php-byte-buffer/issues",
+                "source": "https://github.com/Ne-Lexa/php-byte-buffer/tree/master"
+            },
+            "time": "2019-05-25T17:47:34+00:00"
+        },
+        {
+            "name": "packaged/thrift",
+            "version": "0.13.01",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/packaged/thrift.git",
+                "reference": "e3dbcfb79e319971d64264ffe9c340590cc8a228"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/packaged/thrift/zipball/e3dbcfb79e319971d64264ffe9c340590cc8a228",
+                "reference": "e3dbcfb79e319971d64264ffe9c340590cc8a228",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5 || ^7.0 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Thrift\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Apache Thrift",
+            "homepage": "http://thrift.apache.org/",
+            "keywords": [
+                "apache",
+                "thrift"
+            ],
+            "support": {
+                "issues": "https://github.com/packaged/thrift/issues",
+                "source": "https://github.com/packaged/thrift/tree/0.13.01"
+            },
+            "time": "2021-01-25T13:32:28+00:00"
+        },
+        {
+            "name": "pear/math_biginteger",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pear/Math_BigInteger.git",
+                "reference": "33d4357543037a458fad3e8c837a01b93104e592"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pear/Math_BigInteger/zipball/33d4357543037a458fad3e8c837a01b93104e592",
+                "reference": "33d4357543037a458fad3e8c837a01b93104e592",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "php": ">=4.2.0"
+            },
+            "suggest": {
+                "ext-bcmath": "Allows using the BCMath extension internally for computation. Faster than native implementation.",
+                "ext-gmp": "Allows using the GNU Multiple Precision extension internally for computation. If you are doing a lot of computation this is the recommended extension."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Math_": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Wigginton",
+                    "email": "terrafrost@php.net"
+                }
+            ],
+            "description": "Pure-PHP arbitrary precission integer arithmetic library. If GMP or BCMath are available they are used.",
+            "homepage": "https://github.com/pear/Math_BigInteger",
+            "keywords": [
+                "arbitrary",
+                "bcmath",
+                "gmp",
+                "integer",
+                "precision"
+            ],
+            "support": {
+                "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Math_BigInteger",
+                "source": "https://github.com/pear/Math_BigInteger"
+            },
+            "time": "2016-04-12T05:46:52+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "phpstan/phpstan",
+            "version": "1.9.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/phpstan.git",
+                "reference": "d6fdf01c53978b6429f1393ba4afeca39cc68afa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d6fdf01c53978b6429f1393ba4afeca39cc68afa",
+                "reference": "d6fdf01c53978b6429f1393ba4afeca39cc68afa",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan-shim": "*"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "keywords": [
+                "dev",
+                "static analysis"
+            ],
+            "support": {
+                "issues": "https://github.com/phpstan/phpstan/issues",
+                "source": "https://github.com/phpstan/phpstan/tree/1.9.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ondrejmirtes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/phpstan",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpstan/phpstan",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-11-10T09:56:11+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
