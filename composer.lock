@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "007b85a5ac3fe3571c09caa5ecd32fdf",
+    "content-hash": "2bfddf6482c9578481cf6a4e2cebc5dc",
     "packages": [
         {
             "name": "codename/parquet",
@@ -279,7 +279,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "ext-zip": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
